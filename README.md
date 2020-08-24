@@ -10,7 +10,7 @@ Researchers have access to large online archives of scientific articles. As a co
 
 Given the abstract and title for a set of research articles, predict the topics for each article included in the test set.
 
-Note that a research article can possibly have more than 1 topic. The research article abstracts and titles are sourced from the following 6 topics:
+Note that a research article can possibly have more than 1 topic (Multilabel Text Classification). The research article abstracts and titles are sourced from the following 6 topics:
 
 1. Computer Science
 
@@ -38,7 +38,7 @@ Note that a research article can possibly have more than 1 topic. The research a
 
 -  Trained 3 models using ULMFiT, BERT and RoBERTa 
 
-- Final Submission was generated using `Ensemble`  notebook.
+- Final Submission was generated using `Ensembles`  notebook.
 
 - Created a Voting Classifier of the following for final submission as it performed better on Public LB.:
 1. *BERT* 
@@ -49,13 +49,13 @@ Note that a research article can possibly have more than 1 topic. The research a
 
 | **Model**  | **Public LB  Score**| **Private LB Score** |  
 |---|---|---|
-| ULMFiT |0.839035087719298|0.843144371053205	|
-| BERT |0.845168295331162|0.839798125450613	| 
-| RoBERTa |0.835811177428106|0.837798905214636| 
-|Avg of predictions of 2 models| 0.849821602335388 | 0.848199643493761 |
-|Avg of predictions of 3 models| 0.851214911794075 | 0.849846333967511 |
-|Weighted avg of predictions of 3 models| 0.851851851851852 | 0.85067416540486 |
-|Voting Classifier of best 4|0.852807619891461|0.849371161158233|
+| ULMFiT |0.83904|0.84314	|
+| BERT |0.84517|0.83979	| 
+| RoBERTa |0.83581|0.83779| 
+|Avg of predictions of 2 models| 0.84982 | 0.84819 |
+|Avg of predictions of 3 models| 0.85121 | 0.84984 |
+|Weighted avg of predictions of 3 models| 0.85185 | 0.85067 |
+|Voting Classifier of best 4|0.85281|0.84937|
 
 
 
