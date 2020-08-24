@@ -1,4 +1,4 @@
-# AnalyticsVidhya_Janatahack-Independence-Day-2020-ML-Hackathon
+# Janatahack-Independence-Day-2020-ML-Hackathon
  
 This repository contains **9th place** solution to [Janatahack-Independence-Day-2020-ML-Hackathon](https://datahack.analyticsvidhya.com/contest/janatahack-independence-day-2020-ml-hackathon/) organised by Analytics Vidhya
 
