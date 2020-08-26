@@ -10,7 +10,7 @@ Researchers have access to large online archives of scientific articles. As a co
 
 Given the abstract and title for a set of research articles, predict the topics for each article included in the test set.
 
-Note that a research article can possibly have more than 1 topic (Multilabel Text Classification). The research article abstracts and titles are sourced from the following 6 topics:
+Note that a research article can possibly have more than 1 topic (**Multilabel Text Classification**). The research article abstracts and titles are sourced from the following 6 topics:
 
 1. Computer Science
 
@@ -38,7 +38,7 @@ Note that a research article can possibly have more than 1 topic (Multilabel Tex
 
 -  Trained 3 models using ULMFiT, BERT and RoBERTa 
 
-- Final Submission was generated using `Ensembles`  notebook.
+- Final Submission was generated using `Final Blending`  notebook.
 
 - Created a Voting Classifier of the following for final submission as it performed better on Public LB.:
 1. *BERT* 
