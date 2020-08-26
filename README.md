@@ -52,7 +52,7 @@ Note that a research article can possibly have more than 1 topic (**Multilabel T
 | ULMFiT |0.83904|0.84314	|
 | BERT |0.84517|0.83979	| 
 | RoBERTa |0.83581|0.83779| 
-|Avg of predictions of 2 models| 0.84982 | 0.84819 |
+|ULMFiTx0.4 + BERTx0.6| 0.84982 | 0.84819 |
 |Avg of predictions of 3 models| 0.85121 | 0.84984 |
 |Weighted avg of predictions of 3 models| 0.85185 | 0.85067 |
 |Voting Classifier of best 4|0.85281|0.84937|
@@ -71,5 +71,5 @@ fastai==1.0.61
    * Run the `ULMFiT`, `BERT` and `RoBERTa` notebooks from the `Notebooks` directory.
    * Run the `Final Blending` notebook on the generated outputs from the three notebooks.
    
-Also predicted probabilities of the three models are provided in `Probabilities` folder and the final submission file is provided in `FinalSubmission` folder
+Also predicted probabilities of the three models are provided in `Probabilities` folder and the final submission file is provided in `FinalSubmissions` folder
 
