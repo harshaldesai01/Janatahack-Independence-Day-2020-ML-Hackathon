@@ -58,5 +58,18 @@ Note that a research article can possibly have more than 1 topic (Multilabel Tex
 |Voting Classifier of best 4|0.85281|0.84937|
 
 
+## Environment Setup
 
+```
+fastai==1.0.61
+
+```
+
+## Steps to Reproduce 
+
+   * Download the train.zip and test.zip files from [here](https://datahack.analyticsvidhya.com/contest/janatahack-independence-day-2020-ml-hackathon/#ProblemStatement) 
+   * Run the `ULMFiT`, `BERT` and `RoBERTa` notebooks from the `Notebooks` directory.
+   * Run the `Final Blending` notebook on the generated outputs from the three notebooks.
+   
+Also predicted probabilities of the three models are provided in `Probabilities` folder and the final submission file is provided in `FinalSubmission` folder
 
