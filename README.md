@@ -47,7 +47,7 @@ Note that a research article can possibly have more than 1 topic (**Multilabel T
 4. *Weighted avg of predictions of 3 models (ULMx0.35 BERTx0.45 RoBERTax0.20)*  
 
 ## Architecture
-[architecture](https://github.com/harshaldesai01/Janatahack-Independence-Day-2020-ML-Hackathon/blob/master/AVID_models.png)
+![architecture](https://github.com/harshaldesai01/Janatahack-Independence-Day-2020-ML-Hackathon/blob/master/AVID_models.png)
 
 ## Scores 
 
